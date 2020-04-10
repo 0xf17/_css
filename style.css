@@ -136,3 +136,40 @@ p.small {
 .dim {
     color: var(--color-light) !important;
 }
+
+.srishti {
+    color:chocolate;
+}
+.srishti2 {
+    color: orange;
+}
+.ms {
+    color:#009cbe;
+}
+.indie {
+    color:slategray;
+}
+.m56 {
+    color: purple;
+}
+.srishti3 {
+    color:slateblue;
+}
+details a {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    background-color: rgba(0, 0, 0,0.05);
+    color:rgba(0, 0, 0,0.5);
+    border-radius: 1px;
+    padding: 0px 4px 1px 4px;
+    margin: 1px;
+    position: relative;
+    top:-2px;
+    text-decoration: none;
+}
+details a:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-decoration: none !important;
+    border-bottom: none;
+}
