@@ -58,7 +58,7 @@ a:hover {
 }
 
 #profile-pic {
-    background-image: url('0xf17.jpg');
+    background-image: url('https://0xf17.xyz/0xf17.jpg');
     background-size : cover;
     width           : 90px;
     height          : 90px;
@@ -66,7 +66,7 @@ a:hover {
 }
 
 #logo {
-    background-image: url('ms-logo.svg');
+    background-image: url('https://mathscapes.xyz/ms-logo.svg');
     background-size : cover;
     width           : 50px;
     height          : 50px;
