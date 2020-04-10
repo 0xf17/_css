@@ -96,7 +96,7 @@ details {
 
 summary {
     font-weight     : normal;
-    /* margin-top   : 60px; */
+    margin-top      : 10px;
     margin-bottom   : 10px;
     font-family     : var(--font-inter);
     font-size       : 12px;
