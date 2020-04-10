@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=PT+Serif&display=swap');
+
+:root {
+    --font-inter    : 'Inter', sans-serif;
+    --font-ptser    : 'PT Serif', serif;
+    --color-accent  : #009cbe;
+    --color-accent-dim  : #80CDDF;
+    --color-dark    : #1e2021;
+    --color-medium  : #6d6d6d;
+    --color-light   : #c5c7c9;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    margin          : 0 auto;
+    
+    max-width       : 550px;
+    font-family     : var(--font-ptser);
+    color           : var(--color-dark);
+    margin-top      : 150px;
+    padding         : 25px;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        margin-top  : 0px;
+    }
+}
+
+h1 {
+    font-size       : 20px;
+    line-height     : 30px;
+    font-weight     : normal;
+    margin-bottom   : 40px;
+}
+
+p {
+    font-size       : 16px;
+    line-height     : 26px;
+    margin-bottom   : 20px;
+}
+
+a {
+    color           : var(--color-accent);
+    padding-bottom  : 1px;
+    text-decoration : none;
+}
+
+a:hover {
+    border-bottom   : 1px solid var(--color-accent-dim);
+}
+
+#profile-pic {
+    background-image: url('0xf17.jpg');
+    background-size : cover;
+    width           : 90px;
+    height          : 90px;
+    margin-bottom   : 40px;
+}
+
+#logo {
+    background-image: url('ms-logo.svg');
+    background-size : cover;
+    width           : 50px;
+    height          : 50px;
+    margin-bottom   : 40px;
+}
+
+.foot-spacer {
+    height          : 150px;
+}
+
+hr {
+    border-top: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-color: var(--color-light);
+}
+
+details {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--color-light);
+}
+
+summary {
+    font-weight     : normal;
+    /* margin-top   : 60px; */
+    margin-bottom   : 10px;
+    font-family     : var(--font-inter);
+    font-size       : 12px;
+    line-height     : 135%;
+    letter-spacing  : 0.05em;
+    text-transform  : uppercase;
+    color           : #6D6D6D;
+}
+ul {
+    list-style-type : none;
+    padding         : 0px;
+}
+li {
+    margin-top      : 20px;
+    padding-bottom  : 20px;
+    width           : 100%;
+    border-bottom   : 1px solid var(--color-light);
+}
+li:last-child{
+    border-bottom   : none;
+}
+li p{
+    color           : var(--color-medium);
+    margin-bottom   : 5px;
+}
+li p b {
+    color           : var(--color-dark) !important;
+    font-weight     : normal;
+    margin-right    :10px;
+}
+p.small {
+    font-family: var(--font-inter);
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--color-medium);
+}
