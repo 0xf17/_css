@@ -73,6 +73,10 @@ a:hover {
     margin-bottom   : 40px;
 }
 
+.spacer {
+    height          : 40px;
+}
+
 .foot-spacer {
     height          : 150px;
 }
